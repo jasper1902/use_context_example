@@ -1,9 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useContext, useState } from 'react';
 import { Container } from 'react-bootstrap'
 import NameForm from './components/NameForm'
 import Names from './components/Names'
-import { NamesContext } from './store/NamesContext'
 
 function App() {
   
